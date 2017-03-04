@@ -1,0 +1,6 @@
+
+---
+- name: SublimeLikeTheme - checkout repo
+  git:
+    repo: https://github.com/jbeurel/SublimeLikeTheme.git
+    dest: "/home/jonathan/Projects/Private/sublimeLikeTheme"

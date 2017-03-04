@@ -8,3 +8,4 @@
   roles:
     - { role: cmprescott.chrome, become: yes }
     - { role: tersmitten.phpstorm }
+    - { role: sublimeLikeTheme }
