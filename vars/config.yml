@@ -1,1 +1,24 @@
 phpstorm_version: 2016.3.2
+git_config_user: "/home/jonathan"
+git_config:
+  user:
+    name: Jonathan
+    email: bejonster@gmail.com
+  color:
+    branch: auto
+    diff: auto
+    interactive: auto
+    status: auto
+    ui: auto
+  core:
+    editor: vim
+    excludesfile: "~/.gitignoreglobal"
+  push:
+    default: current
+  alias:
+    st: "status"
+    lg: "log -M --decorate --graph"
+    ci: "commit"
+    pur: "pull --rebase"
+    br: "branch"
+    co: "checkout"

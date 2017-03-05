@@ -2,10 +2,10 @@
 
 - name: Take a coffee and let your Ansible setup your computer :-)
   hosts: localhost
-  sudo: yes
   vars_files:
     - vars/config.yml
   roles:
     - { role: cmprescott.chrome, become: yes }
     - { role: tersmitten.phpstorm }
+    - { role: kosssi.gitconfig }
     - { role: sublimeLikeTheme }
