@@ -1,4 +1,5 @@
 phpstorm_version: 2016.3.2
+webstorm_version: EAP-171.3691.10
 git_config_user: "/home/jonathan"
 git_config:
   user:

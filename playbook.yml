@@ -6,6 +6,7 @@
     - vars/config.yml
   roles:
     - { role: cmprescott.chrome, become: yes }
-    - { role: tersmitten.phpstorm }
+    - { role: tersmitten.phpstorm, become: yes  }
+    - { role: jbeurel.webstorm, become: yes }
     - { role: kosssi.gitconfig }
     - { role: sublimeLikeTheme }

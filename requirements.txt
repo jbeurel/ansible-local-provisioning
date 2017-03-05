@@ -1,3 +1,4 @@
 cmprescott.chrome
 tersmitten.phpstorm
 kosssi.gitconfig
+jbeurel.webstorm
