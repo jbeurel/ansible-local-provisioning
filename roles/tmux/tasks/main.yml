@@ -1,0 +1,6 @@
+# tasks file for tmux (Ubuntu specific)
+---
+
+- name: Install tmux packages
+  apt: name=tmux state=present update_cache=yes
+  tags: tmux

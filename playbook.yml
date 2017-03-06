@@ -10,3 +10,4 @@
     - { role: jbeurel.webstorm, become: yes }
     - { role: kosssi.gitconfig }
     - { role: sublimeLikeTheme }
+    - { role: tmux, become: yes }
